@@ -137,7 +137,7 @@ __DATA__
 
 =head1 NAME
 
-test-reports - Download test reports for a CPAN package
+test-reports - Download test reports for a CPAN distribution fom CPAN Testers
 
 =head1 VERSION
 

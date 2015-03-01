@@ -61,3 +61,13 @@ Debian_CPANTS.txt
 
 # Avoid archives of this distribution
 \bApp-cpan-reports-[\d\.\_]+
+^MYMETA\.json$
+
+# Other files of interest
+[.].*[.]tag$
+errors.err
+.travis.yml
+vim.sh
+vrc.yml
+tmp*
+temp*

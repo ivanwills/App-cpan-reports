@@ -3,19 +3,11 @@
 use strict;
 use warnings;
 use Test::More;
-use Path::Class;
+use FindBin qw/$Bin/;
+use File::Spec;
 
-my $lib = file($0)->parent->parent->subdir('lib');
-my @files = $lib->children;
+my $perl = File::Spec->rel2abs($^X);
+ok( !(system $perl, '-c', "$Bin/../bin/cpan-reports"), "bin/cpan-reports compiles"); 
 
-while ( my $file = shift @files ) {
-    if ( -d $file ) {
-        push @files, $file->children;
-    }
-    elsif ( $file =~ /[.]pm$/ ) {
-        require_ok $file;
-    }
-}
-
-diag( "Testing App::cpan-reports $App::cpan-reports::VERSION, Perl $], $^X" );
+diag( "Testing App::cpan-reports 0.001, Perl $], $^X" );
 done_testing();

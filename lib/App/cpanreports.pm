@@ -23,7 +23,7 @@ __END__
 
 =head1 NAME
 
-test-reports - Download test reports for a CPAN distribution fom CPAN Testers
+test-reports - Download test reports for a CPAN distribution from CPAN Testers
 
 =head1 VERSION
 

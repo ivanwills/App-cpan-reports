@@ -3,11 +3,11 @@ use warnings;
 use Module::Build;
 
 my $builder = Module::Build->new(
-    module_name  => 'App::cpan-reports',
-    license      => 'perl',
-    dist_author  => 'Ivan Wills <ivan.wills@gmail.com>',
-    dist_version => 0.001,
-    requires     => {
+    module_name       => 'App::cpan-reports',
+    license           => 'perl',
+    dist_author       => 'Ivan Wills <ivan.wills@gmail.com>',
+    dist_version_from => 'lib/App/cpanreports.pm',
+    requires          => {
         'perl'             => '5.006',
         'HTML::Entities'   => 0,
         'Path::Tiny'       => 0,
@@ -15,8 +15,8 @@ my $builder = Module::Build->new(
         'YAML::XS'         => 0,
     },
     build_requires => {
-        'Test::More'       => 0,
-        'Test::NoWarnings' => 0,
+        'Test::More'     => 0,
+        'Test::Warnings' => 0,
     },
     add_to_cleanup     => [ 'App-cpan-reports-*' ],
     create_makefile_pl => 'traditional',

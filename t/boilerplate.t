@@ -2,8 +2,8 @@
 
 use strict;
 use warnings;
-use Test::More tests => 3 + 1;
-use Test::NoWarnings;
+use Test::More;
+use Test::Warnings;
 use Data::Dumper qw/Dumper/;
 
 sub not_in_file_ok {
@@ -60,5 +60,6 @@ subtest 'Changes' => sub {
     );
 };
 
+module_boilerplate_ok('lib/App/cpanreports.pm');
 module_boilerplate_ok('bin/cpan-reports');
-
+done_testing();

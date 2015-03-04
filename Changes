@@ -1,5 +1,18 @@
 Revision history for App-cpan-reports
 
-0.0.1   2015-03-01
-        First version, released on an unsuspecting world.
-
+0.001   2015-03-01
+        Finally got this working (Ivan Wills)
+        Fixed typo (Ivan Wills)
+        Added lib as I can't see how to make Module::Build happy any other way (Ivan Wills)
+        Made the description a little clearer (Ivan Wills)
+        Got tests working (Ivan Wills)
+        Updated manifest (Ivan Wills)
+        Updated License (Ivan Wills)
+        Working on documentation (Ivan Wills)
+        Fixed boilerplate tests (Ivan Wills)
+        Set dependencies (Ivan Wills)
+        Removed lib file (Ivan Wills)
+        Tag files (Ivan Wills)
+        Added implementation (Ivan Wills)
+        Renamed file (Ivan Wills)
+        Initial commit (Ivan Wills)

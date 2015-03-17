@@ -3,7 +3,7 @@ use warnings;
 use Module::Build;
 
 my $builder = Module::Build->new(
-    module_name       => 'App::cpan-reports',
+    module_name       => 'App::cpanreports',
     license           => 'perl',
     dist_author       => 'Ivan Wills <ivan.wills@gmail.com>',
     dist_abstract     => 'Download test reports for a CPAN distribution from CPAN Testers',
@@ -22,13 +22,13 @@ my $builder = Module::Build->new(
         'Test::More'     => 0,
         'Test::Warnings' => 0,
     },
-    add_to_cleanup     => [ 'App-cpan-reports-*' ],
+    add_to_cleanup     => [ 'App-cpanreports-*' ],
     create_makefile_pl => 'traditional',
     create_license     => 1,
     meta_merge         => {
         resources => {
             repository => 'git://github.com/ivanwills/App-cpan-reports.git',
-            bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=App::cpan-reports',
+            bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=App::cpanreports',
         },
     },
 );

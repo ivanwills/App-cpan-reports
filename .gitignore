@@ -1,6 +1,6 @@
 .*.sw[ponxmn]
 Debian_CPANTS.txt
-App-cpan-reports-*
+App-cpanreports-*
 .vimtagsdisplay
 tags
 Build

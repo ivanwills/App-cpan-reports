@@ -181,6 +181,18 @@ distribution of a specific version.
 
 =head1 SUBROUTINES/METHODS
 
+=head2 C<run ()>
+
+Runs the actual code
+
+=head2 C<get_report_summary ($mech, $dir, $distname, $version)>
+
+Downloads tests to C<$dir> for C<$distname> C<$version> using C<$mech>
+
+=head2 C<meta ()>
+
+Reads the MYMETA.json file to discover details about the current project.
+
 =head1 DIAGNOSTICS
 
 =head1 CONFIGURATION AND ENVIRONMENT

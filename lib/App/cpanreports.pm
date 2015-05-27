@@ -19,7 +19,7 @@ use HTML::Entities;
 use WWW::Mechanize;
 use Path::Tiny;
 
-our $VERSION = 0.001;
+our $VERSION = 0.002;
 my ($name)   = $PROGRAM_NAME =~ m{^.*/(.*?)$}mxs;
 
 my %option = (
@@ -141,11 +141,11 @@ __END__
 
 =head1 NAME
 
-cpan-reports - Download test reports for a CPAN distribution from CPAN Testers
+App::cpanreports - Download test reports for a CPAN distribution from CPAN Testers
 
 =head1 VERSION
 
-This documentation refers to App::cpanreports version 0.001
+This documentation refers to App::cpanreports version 0.002
 
 =head1 SYNOPSIS
 

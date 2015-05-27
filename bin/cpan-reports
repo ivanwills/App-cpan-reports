@@ -10,7 +10,7 @@ use strict;
 use warnings;
 use App::cpanreports;
 
-our $VERSION = 0.001;
+our $VERSION = 0.002;
 App::cpanreports->run();
 
 exit 0;
@@ -23,7 +23,7 @@ cpan-reports - Download test reports for a CPAN distribution from CPAN Testers
 
 =head1 VERSION
 
-This documentation refers to cpan-reports version 0.001
+This documentation refers to cpan-reports version 0.002
 
 =head1 SYNOPSIS
 

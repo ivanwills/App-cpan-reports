@@ -23,7 +23,7 @@ __END__
 
 =head1 NAME
 
-test-reports - Download test reports for a CPAN distribution from CPAN Testers
+App::cpanreports - Download test reports for a CPAN distribution from CPAN Testers
 
 =head1 VERSION
 
@@ -31,7 +31,7 @@ This documentation refers to App::cpanreports version 0.002
 
 =head1 SYNOPSIS
 
-   test-reports [option]
+   cpan-reports [option]
 
  OPTIONS:
   -v --version[=]version
@@ -54,7 +54,7 @@ This documentation refers to App::cpanreports version 0.002
   -V --verbose  Show more detailed option
      --VERSION  Prints the version information
      --help     Prints this help information
-     --man      Prints the full documentation for test-reports
+     --man      Prints the full documentation for cpan-reports
 
 =head1 DESCRIPTION
 

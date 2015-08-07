@@ -1,5 +1,10 @@
 Revision history for App-cpan-reports
 
+0.004   2015-08-07
+        Updating for release of version 0.004
+        Removed creation of makefile (Ivan Wills)
+        Added Perl 5.22 to list of perl versions to build with (Ivan Wills)
+
 0.003   2015-06-10
         Updating for release of version 0.003
         Fixed abstract and changed file name (Ivan Wills)
